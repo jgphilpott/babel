@@ -18,15 +18,40 @@ Go is an open source programming language modeled after C. Its advantage is that
 
 ### [Variables](https://www.tutorialspoint.com/go/go_variables.htm)
 
-In Go variables are declared using the `var` keyword. If you want you can also optionally specify the data type.
+In Go variables are declared using the `var` keyword like this, `var i = 1`. If you want you can also optionally specify the data type like this, `var i int = 1`.
 
 ### [Loops](https://www.tutorialspoint.com/go/go_loops.htm)
 
-...
+Go supports the traditional **for loop**, it could be a basic single condition loop like this:
+
+```go
+var i = 1
+
+for i <= 10 {
+  fmt.Println(fmt.Sprintf("i = %d", i))
+  i += 1
+}
+```
+
+Or the more classic initial/condition/after style like this:
+
+```go
+for j := 1; j <= 10; j++ {
+  fmt.Println(fmt.Sprintf("j = %d", j))
+}
+```
 
 ### [Functions](https://www.tutorialspoint.com/go/go_functions.htm)
 
-...
+The general form of a function definition in Go is as follows:
+
+```go
+func function_name(args) return_type {
+  // Body of the function here.
+}
+```
+
+Specifying the return type is optional.
 
 # More Info
 
