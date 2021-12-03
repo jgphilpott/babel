@@ -4,7 +4,7 @@
 
 **Name:** [...](wikipedia)
 
-**Creator(s):** [...](wikipedia)
+**Creator(s):** [...](github/wikipedia)
 
 **Date:** Month Day, Year
 
