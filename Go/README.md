@@ -4,7 +4,7 @@
 
 **Name:** [Go](https://en.wikipedia.org/wiki/Go_(programming_language))
 
-**Creator(s):** [Robert Griesemer](https://en.wikipedia.org/wiki/Robert_Griesemer), [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike) and [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson)
+**Creator(s):** [Robert Griesemer](https://github.com/griesemer), [Rob Pike](https://github.com/robpike) and [Ken Thompson](https://github.com/ken)
 
 **Date:** November 10, 2009
 
