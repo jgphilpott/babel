@@ -1,3 +1,5 @@
+<p align="center"><img width="300" height="300" src="https://github.com/jgphilpott/babel/blob/main/C%2B%2B/logo.png"></p>
+
 # Basic Info
 
 **Name:** [...](wikipedia)

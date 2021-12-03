@@ -1,4 +1,4 @@
-<p align="center"><img width="300" height="300" src="https://github.com/jgphilpott/babel/blob/main/icon.jpg"></p>
+<p align="center"><img width="300" height="300" src="https://github.com/jgphilpott/babel/blob/main/icon.png"></p>
 
 # Babel
 
