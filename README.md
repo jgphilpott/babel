@@ -2,7 +2,7 @@
 
 # Babel
 
-A repository for experimenting with all the different programming languages. Below you will find an alphabetical list of all the languages that this repository contains.
+Babel is a repository for experimenting with all the different programming languages. Below you will find an alphabetical [list of the languages](https://github.com/jgphilpott/babel#languages) that this repository contains, for a full list of all programming languages take a look [here](https://en.wikipedia.org/wiki/List_of_programming_languages).
 
 ### Languages
 
