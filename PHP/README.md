@@ -2,33 +2,33 @@
 
 # Basic Info
 
-**Name:** [...](wikipedia)
+**Name:** [PHP](https://en.wikipedia.org/wiki/PHP)
 
-**Creator(s):** [...](github/wikipedia)
+**Creator(s):** [Rasmus Lerdorf](https://github.com/rlerdorf)
 
-**Date:** Month Day, Year
+**Date:** June 8, 1995
 
-**Website:** [...](?)
+**Website:** [php.net](https://www.php.net)
 
 # Intro
 
-...
+PHP is an open source programming language geared towards web development. It was among the first server-side languages that could be embedded into HTML and is used by nearly 80% of all the websites whose server-side language we know. PHP is primarily used as a backend language in web development.
 
 # Syntax
 
-### [Variables](tutorialspoint)
+### [Variables](https://www.tutorialspoint.com/php/php_variable_types.htm)
 
 ...
 
-### [Loops](tutorialspoint)
+### [Loops](https://www.tutorialspoint.com/php/php_loop_types.htm)
 
 ...
 
-### [Functions](tutorialspoint)
+### [Functions](https://www.tutorialspoint.com/php/php_functions.htm)
 
 ...
 
 # More Info
 
- - [Documentation](?)
- - [Tutorials](tutorialspoint)
+ - [Documentation](https://www.php.net/docs.php)
+ - [Tutorials](https://www.tutorialspoint.com/php/index.htm)
