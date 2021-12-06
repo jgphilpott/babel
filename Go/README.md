@@ -20,6 +20,10 @@ Go is an open source programming language modeled after C. Its advantage is that
 
 In Go variables are declared using the `var` keyword like this, `var i = 1`. If you want you can also optionally specify the data type like this, `var i int = 1`.
 
+### [If/Else](tutorialspoint)
+
+...
+
 ### [Loops](https://www.tutorialspoint.com/go/go_loops.htm)
 
 Go supports the traditional **for loop**, it could be a basic single condition loop like this:
@@ -52,6 +56,10 @@ func function_name(args) return_type {
 ```
 
 Specifying the return type is optional.
+
+# Libraries
+
+...
 
 # More Info
 

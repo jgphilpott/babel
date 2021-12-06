@@ -20,11 +20,19 @@
 
 ...
 
+### [If/Else](tutorialspoint)
+
+...
+
 ### [Loops](tutorialspoint)
 
 ...
 
 ### [Functions](tutorialspoint)
+
+...
+
+# Libraries
 
 ...
 
