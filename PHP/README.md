@@ -18,17 +18,47 @@ PHP is an open source programming language geared towards web development. It wa
 
 ### [Variables](https://www.tutorialspoint.com/php/php_variable_types.htm)
 
-...
+In PHP variables are declared using a `$` sign like this, `$one = 1;`. All statements in PHP must also be preceded by a semicolon.
 
-### [If/Else](tutorialspoint)
+### [If/Else](https://www.tutorialspoint.com/php/php_decision_making.htm)
 
-...
+The basic template for if/else statements in PHP is as follows:
+
+```php
+if (true)
+  print("True!\n");
+else
+  print("False!\n");
+```
+
+You can also add elseif statements and switches.
 
 ### [Loops](https://www.tutorialspoint.com/php/php_loop_types.htm)
 
-...
+PHP supports four different loop types; **for**, **while**, **do/while** and **foreach**. However the most common are **for** and **foreach**.
+
+Here is an example of a **for** loop:
+
+```php
+for ($i = 1; $i <= 10; $i++) {
+  print("$i\n");
+}
+```
+Here is an example of a **foreach** loop:
+
+```php
+$letters = array("a", "b", "c", "d", "e");
+
+foreach($letters as $letter) {
+  print("$letter\n");
+}
+```
 
 ### [Functions](https://www.tutorialspoint.com/php/php_functions.htm)
+
+...
+
+### [Classes](tutorialspoint)
 
 ...
 
