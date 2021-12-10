@@ -25,10 +25,11 @@ In PHP variables are declared using a `$` sign like this, `$one = 1;`. All state
 The basic template for if/else statements in PHP is as follows:
 
 ```php
-if (true)
+if (true) {
   print("True!\n");
-else
+} else {
   print("False!\n");
+}
 ```
 
 You can also add elseif statements and switches.
@@ -56,15 +57,45 @@ foreach($letters as $letter) {
 
 ### [Functions](https://www.tutorialspoint.com/php/php_functions.htm)
 
-...
+PHP functions are very similar to other languages, the basic template for functions in PHP is as follows:
 
-### [Classes](tutorialspoint)
+```php
+function functionName($arg1=1, $arg2) {
+  return $arg1 + $arg2;
+}
+```
 
-...
+Setting an argument default (like argument one in the example above) is optional.
+
+### [Classes](https://www.tutorialspoint.com/php/php_object_oriented.htm)
+
+PHP classes are declared using the key word `class`. A class is a template for objects, variables inside a class are called 'properties' and functions inside a class are called 'methods'. If you create a special `__construct()` function inside your class you will be able to initialize an object with certain properties.
+
+```php
+class Fruit {
+
+  public $name;
+  public $color;
+
+  function __construct($name) {
+    $this->name = $name;
+  }
+
+  function get_name() {
+    return $this->name;
+  }
+
+}
+
+$apple = new Fruit("Apple");
+echo $apple->get_name();
+```
+
+To initialize a new instance of a class use the key word `new` followed by the class name, as shown above.
 
 # Libraries
 
-...
+ - [Laravel](https://laravel.com) ~ A web framework.
 
 # More Info
 

@@ -7,10 +7,11 @@
 
   print("$sum\n");
 
-  if (true)
+  if (true) {
     print("True!\n");
-  else
+  } else {
     print("False!\n");
+  }
 
   for ($i = 1; $i <= 10; $i++) {
     print("$i\n");
