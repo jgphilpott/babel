@@ -92,7 +92,7 @@ fmt.Printf("Book subject: %s\n", Book.subject)
 fmt.Printf("Book book_id: %d\n", Book.book_id)
 ```
 
-Once a structure is defined you can create an instance of the structure and save it to a variable like this `var Book Books`. You can then assign and read the properties of the object using dot notation as shown above.
+Once a structure is defined you can create an instance of the structure and save it to a variable like this `var Book Books`. You can then assign and read the properties of the object using dot notation, as shown above.
 
 # Libraries
 
