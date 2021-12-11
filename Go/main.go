@@ -53,9 +53,9 @@ func makeBook(title string, author string, subject string, book_id int) {
   Book.subject = subject
   Book.book_id = book_id
 
-  fmt.Printf( "Book title: %s\n", Book.title)
-  fmt.Printf( "Book author: %s\n", Book.author)
-  fmt.Printf( "Book subject: %s\n", Book.subject)
-  fmt.Printf( "Book book_id: %d\n", Book.book_id)
+  fmt.Printf("Book title: %s\n", Book.title)
+  fmt.Printf("Book author: %s\n", Book.author)
+  fmt.Printf("Book subject: %s\n", Book.subject)
+  fmt.Printf("Book book_id: %d\n", Book.book_id)
 
 }
