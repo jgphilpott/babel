@@ -2,45 +2,41 @@
 
 # Basic Info
 
-**Name:** [...](wikipedia)
+**Name:** [C](https://en.wikipedia.org/wiki/C_(programming_language))
 
-**Creator(s):** [...](github/wikipedia)
+**Creator(s):** [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie)
 
-**Date:** Month Day, Year
+**Date:** 1972
 
-**Website:** [...](?)
+**Website:** [Open Standards](http://www.open-std.org/jtc1/sc22/wg14)
 
 # Intro
 
-...
+C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system. By design, C provides constructs that map efficiently to typical machine instructions. It has found lasting use in applications previously coded in [assembly language](https://github.com/jgphilpott/babel/blob/main/Assembly/README.md). Such applications include operating systems and various application software for computer architectures that range from supercomputers to PLCs and embedded systems.
 
 # Syntax
 
-### [Variables](tutorialspoint)
+### [Variables](https://www.tutorialspoint.com/cprogramming/c_variables.htm)
 
 ...
 
-### [If/Else](tutorialspoint)
+### [If/Else](https://www.tutorialspoint.com/cprogramming/c_decision_making.htm)
 
 ...
 
-### [Loops](tutorialspoint)
+### [Loops](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
 
 ...
 
-### [Functions](tutorialspoint)
-
-...
-
-### [Classes](tutorialspoint)
+### [Functions](https://www.tutorialspoint.com/cprogramming/c_functions.htm)
 
 ...
 
 # Libraries
 
-...
+ - [Awesome C](https://github.com/oz123/awesome-c) ~ A curated list of awesome C frameworks, libraries, resources and other shiny things.
 
 # More Info
 
- - [Documentation](?)
- - [Tutorials](tutorialspoint)
+ - [Documentation](http://www.open-std.org/jtc1/sc22/wg14/www/wg14_document_log)
+ - [Tutorials](https://www.tutorialspoint.com/cprogramming/index.htm)
