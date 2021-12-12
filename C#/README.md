@@ -2,45 +2,46 @@
 
 # Basic Info
 
-**Name:** [...](wikipedia)
+**Name:** [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
 
-**Creator(s):** [...](github/wikipedia)
+**Creator(s):** [Anders Hejlsberg](https://github.com/ahejlsberg)
 
-**Date:** Month Day, Year
+**Date:** 2000
 
-**Website:** [...](?)
+**Website:** [C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp)
 
 # Intro
 
-...
+C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines. C# was designed by [Anders Hejlsberg](https://en.wikipedia.org/wiki/Anders_Hejlsberg) from Microsoft in 2000 and was later approved as an international standard by Ecma (ECMA-334) in 2002 and ISO (ISO/IEC 23270) in 2003.
 
 # Syntax
 
-### [Variables](tutorialspoint)
+### [Variables](https://www.tutorialspoint.com/csharp/csharp_variables.htm)
 
 ...
 
-### [If/Else](tutorialspoint)
+### [If/Else](https://www.tutorialspoint.com/csharp/csharp_decision_making.htm)
 
 ...
 
-### [Loops](tutorialspoint)
+### [Loops](https://www.tutorialspoint.com/csharp/csharp_loops.htm)
 
 ...
 
-### [Functions](tutorialspoint)
+### [Methods](https://www.tutorialspoint.com/csharp/csharp_methods.htm)
 
 ...
 
-### [Classes](tutorialspoint)
+### [Classes](https://www.tutorialspoint.com/csharp/csharp_classes.htm)
 
 ...
 
 # Libraries
 
-...
+ - [Newtonsoft](https://www.newtonsoft.com/json) ~ A popular high-performance JSON framework.
+ - [Awesome .NET!](https://github.com/quozd/awesome-dotnet) ~ A collection of awesome .NET libraries, tools, frameworks and software.
 
 # More Info
 
- - [Documentation](?)
- - [Tutorials](tutorialspoint)
+ - [Documentation](https://docs.microsoft.com/en-us/dotnet/csharp)
+ - [Tutorials](https://www.tutorialspoint.com/csharp/index.htm)
