@@ -2,45 +2,45 @@
 
 # Basic Info
 
-**Name:** [...](wikipedia)
+**Name:** [TypeScript](https://en.wikipedia.org/wiki/TypeScript)
 
-**Creator(s):** [...](github/wikipedia)
+**Creator(s):** [Anders Hejlsberg](https://github.com/ahejlsberg)
 
-**Date:** Month Day, Year
+**Date:** October 1, 2012
 
-**Website:** [...](?)
+**Website:** [typescriptlang.org](https://www.typescriptlang.org)
 
 # Intro
 
-...
+TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. TypeScript is designed for the development of large applications and transcompiles to JavaScript. As TypeScript is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs.
 
 # Syntax
 
-### [Variables](tutorialspoint)
+### [Variables](https://www.tutorialspoint.com/typescript/typescript_variables.htm)
 
 ...
 
-### [If/Else](tutorialspoint)
+### [If/Else](https://www.tutorialspoint.com/typescript/typescript_decision_making.htm)
 
 ...
 
-### [Loops](tutorialspoint)
+### [Loops](https://www.tutorialspoint.com/typescript/typescript_loops.htm)
 
 ...
 
-### [Functions](tutorialspoint)
+### [Functions](https://www.tutorialspoint.com/typescript/typescript_functions.htm)
 
 ...
 
-### [Classes](tutorialspoint)
+### [Classes](https://www.tutorialspoint.com/typescript/typescript_classes.htm)
 
 ...
 
 # Libraries
 
-...
+ - [Awesome TypeScript](https://github.com/dzharii/awesome-typescript) ~ A collection of awesome TypeScript resources for client-side and server-side development.
 
 # More Info
 
- - [Documentation](?)
- - [Tutorials](tutorialspoint)
+ - [Documentation](https://www.typescriptlang.org/docs)
+ - [Tutorials](https://www.tutorialspoint.com/typescript/index.htm)
