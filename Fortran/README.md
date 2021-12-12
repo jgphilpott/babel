@@ -2,45 +2,41 @@
 
 # Basic Info
 
-**Name:** [...](wikipedia)
+**Name:** [Fortran](https://en.wikipedia.org/wiki/Fortran)
 
-**Creator(s):** [...](github/wikipedia)
+**Creator(s):** [John Backus](https://en.wikipedia.org/wiki/John_Backus)
 
-**Date:** Month Day, Year
+**Date:** 1957
 
-**Website:** [...](?)
+**Website:** [fortran-lang.org](https://fortran-lang.org)
 
 # Intro
 
-...
+Fortran is a general-purpose, compiled imperative programming language that is especially suited to numeric computation and scientific computing. It has been in use for over six decades in computationally intensive areas such as numerical weather prediction, finite element analysis, computational fluid dynamics, geophysics, computational physics, crystallography and computational chemistry. It is a popular language for high-performance computing and is used for programs that benchmark and rank the world's fastest supercomputers.
 
 # Syntax
 
-### [Variables](tutorialspoint)
+### [Variables](https://www.tutorialspoint.com/fortran/fortran_variables.htm)
 
 ...
 
-### [If/Else](tutorialspoint)
+### [If/Else](https://www.tutorialspoint.com/fortran/fortran_decisions.htm)
 
 ...
 
-### [Loops](tutorialspoint)
+### [Loops](https://www.tutorialspoint.com/fortran/fortran_loops.htm)
 
 ...
 
-### [Functions](tutorialspoint)
-
-...
-
-### [Classes](tutorialspoint)
+### [Functions](https://www.tutorialspoint.com/fortran/fortran_intrinsic_functions.htm)
 
 ...
 
 # Libraries
 
-...
+ - [Fortran Wiki](https://fortranwiki.org/fortran/show/Libraries) ~ General purpose Fortran libraries.
 
 # More Info
 
- - [Documentation](?)
- - [Tutorials](tutorialspoint)
+ - [Documentation](https://stdlib.fortran-lang.org/)
+ - [Tutorials](https://www.tutorialspoint.com/fortran/index.htm)
