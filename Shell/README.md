@@ -2,45 +2,41 @@
 
 # Basic Info
 
-**Name:** [...](wikipedia)
+**Name:** [Shell Script](https://en.wikipedia.org/wiki/Shell_script)
 
-**Creator(s):** [...](github/wikipedia)
+**Creator(s):** N/A
 
-**Date:** Month Day, Year
+**Date:** N/A
 
-**Website:** [...](?)
+**Website:** N/A
 
 # Intro
 
-...
+A shell script is a computer program designed to be run by the Unix shell, a command-line interpreter. The various dialects of shell scripts are considered to be scripting languages. Typical operations performed by shell scripts include file manipulation, program execution, and printing text. A script which sets up the environment, runs the program, and does any necessary cleanup, logging, etc. is called a wrapper.
 
 # Syntax
 
-### [Variables](tutorialspoint)
+### [Variables](https://www.tutorialspoint.com/unix/unix-using-variables.htm)
 
 ...
 
-### [If/Else](tutorialspoint)
+### [If/Else](https://www.tutorialspoint.com/unix/unix-decision-making.htm)
 
 ...
 
-### [Loops](tutorialspoint)
+### [Loops](https://www.tutorialspoint.com/unix/unix-loop-control.htm)
 
 ...
 
-### [Functions](tutorialspoint)
-
-...
-
-### [Classes](tutorialspoint)
+### [Functions](https://www.tutorialspoint.com/unix/unix-shell-functions.htm)
 
 ...
 
 # Libraries
 
-...
+ - [Base](https://github.com/codeforester/base) ~ A simple framework for sharing Bash profiles, reusable shell libraries, and commands across hosts and teams.
+ - [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible) ~ A collection of pure bash alternatives to external processes.
 
 # More Info
 
- - [Documentation](?)
- - [Tutorials](tutorialspoint)
+ - [Tutorials](https://www.tutorialspoint.com/unix/shell_scripting.htm)
