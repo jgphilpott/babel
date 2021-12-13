@@ -52,4 +52,4 @@ Here is an alphabetical list of the languages that this repository contains:
  - [Shell](https://github.com/jgphilpott/babel/blob/main/Shell/README.md)
  - [Swift](https://github.com/jgphilpott/babel/blob/main/Swift/README.md)
  - [TypeScript](https://github.com/jgphilpott/babel/blob/main/TypeScript/README.md)
- - [VBA](https://github.com/jgphilpott/babel/blob/main/VBA/README.md)
+ - [VB](https://github.com/jgphilpott/babel/blob/main/VB/README.md)
