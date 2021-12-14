@@ -2,45 +2,41 @@
 
 # Basic Info
 
-**Name:** [...](wikipedia)
+**Name:** [Haskell](https://en.wikipedia.org/wiki/Haskell_(programming_language))
 
-**Creator(s):** [...](github/wikipedia)
+**Creator(s):** Lots of people…
 
-**Date:** Month Day, Year
+**Date:** 1990
 
-**Website:** [...](?)
+**Website:** [haskell.org](https://www.haskell.org)
 
 # Intro
 
-...
+Haskell is a general-purpose, statically typed, purely functional programming language with type inference and lazy evaluation. Designed for teaching, research and industrial application, Haskell has pioneered a number of advanced programming language features such as type classes, which enable type-safe operator overloading. Haskell's main implementation is the Glasgow Haskell Compiler (GHC). It is named after logician [Haskell Curry](https://en.wikipedia.org/wiki/Haskell_Curry).
 
 # Syntax
 
-### [Variables](tutorialspoint)
+### [Variables](https://www.tutorialspoint.com/haskell/haskell_overview.htm)
 
 ...
 
-### [If/Else](tutorialspoint)
+### [If/Else](https://www.tutorialspoint.com/haskell/haskell_decision_making.htm)
 
 ...
 
-### [Loops](tutorialspoint)
+### [Loops](?)
 
 ...
 
-### [Functions](tutorialspoint)
-
-...
-
-### [Classes](tutorialspoint)
+### [Functions](https://www.tutorialspoint.com/haskell/haskell_functions.htm)
 
 ...
 
 # Libraries
 
-...
+ - [Applications and Libraries](https://wiki.haskell.org/Applications_and_libraries) ~ A list of Haskell packages and libraries.
 
 # More Info
 
- - [Documentation](?)
- - [Tutorials](tutorialspoint)
+ - [Documentation](https://www.haskell.org/documentation)
+ - [Tutorials](https://www.tutorialspoint.com/haskell/index.htm)
