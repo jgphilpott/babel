@@ -2,45 +2,45 @@
 
 # Basic Info
 
-**Name:** [...](wikipedia)
+**Name:** [Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language))
 
-**Creator(s):** [...](github/wikipedia)
+**Creator(s):** [Yukihiro Matsumoto](https://github.com/matz)
 
-**Date:** Month Day, Year
+**Date:** 1995
 
-**Website:** [...](?)
+**Website:** [ruby-lang.org](https://www.ruby-lang.org/en)
 
 # Intro
 
-...
+Ruby is an interpreted, high-level, general-purpose programming language which supports multiple programming paradigms. It was designed with an emphasis on programming productivity and simplicity. In ruby, everything is an object, including primitive data types. It was developed in the mid-1990s by [Yukihiro "Matz" Matsumoto](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto) in Japan.
 
 # Syntax
 
-### [Variables](tutorialspoint)
+### [Variables](https://www.tutorialspoint.com/ruby/ruby_variables.htm)
 
 ...
 
-### [If/Else](tutorialspoint)
+### [If/Else](https://www.tutorialspoint.com/ruby/ruby_if_else.htm)
 
 ...
 
-### [Loops](tutorialspoint)
+### [Loops](https://www.tutorialspoint.com/ruby/ruby_loops.htm)
 
 ...
 
-### [Functions](tutorialspoint)
+### [Methods](https://www.tutorialspoint.com/ruby/ruby_methods.htm)
 
 ...
 
-### [Classes](tutorialspoint)
+### [Classes](https://www.tutorialspoint.com/ruby/ruby_classes.htm)
 
 ...
 
 # Libraries
 
-...
+ - [Ruby on Rails](https://rubyonrails.org) ~ A server-side web application framework written in Ruby.
 
 # More Info
 
- - [Documentation](?)
- - [Tutorials](tutorialspoint)
+ - [Documentation](https://www.ruby-lang.org/en/documentation)
+ - [Tutorials](https://www.tutorialspoint.com/ruby/index.htm)
