@@ -2,45 +2,45 @@
 
 # Basic Info
 
-**Name:** [...](wikipedia)
+**Name:** [Lua](https://en.wikipedia.org/wiki/Lua_(programming_language))
 
-**Creator(s):** [...](github/wikipedia)
+**Creator(s):** [Roberto Ierusalimschy](https://en.wikipedia.org/wiki/Roberto_Ierusalimschy), [Waldemar Celes](https://www.google.com/search?q=Waldemar+Celes) and [Luiz Henrique de Figueiredo](https://www.google.com/search?q=Luiz+Henrique+de+Figueiredo)
 
-**Date:** Month Day, Year
+**Date:** 1993
 
-**Website:** [...](?)
+**Website:** [lua.org](https://www.lua.org)
 
 # Intro
 
-...
+Lua is a lightweight, high-level, multi-paradigm programming language designed primarily for embedded use in applications. Lua is cross-platform, since the interpreter of compiled bytecode is written in ANSI C, and Lua has a relatively simple C API to embed it into applications.
 
 # Syntax
 
-### [Variables](tutorialspoint)
+### [Variables](https://www.tutorialspoint.com/lua/lua_variables.htm)
 
 ...
 
-### [If/Else](tutorialspoint)
+### [If/Else](https://www.tutorialspoint.com/lua/lua_decision_making.htm)
 
 ...
 
-### [Loops](tutorialspoint)
+### [Loops](https://www.tutorialspoint.com/lua/lua_loops.htm)
 
 ...
 
-### [Functions](tutorialspoint)
+### [Functions](https://www.tutorialspoint.com/lua/lua_functions.htm)
 
 ...
 
-### [Classes](tutorialspoint)
+### [Classes](https://www.tutorialspoint.com/lua/lua_object_oriented.htm)
 
 ...
 
 # Libraries
 
-...
+ - [Awesome Lua](https://github.com/LewisJEllis/awesome-lua) ~ A curated list of quality Lua packages and resources.
 
 # More Info
 
- - [Documentation](?)
- - [Tutorials](tutorialspoint)
+ - [Documentation](https://www.lua.org/docs.html)
+ - [Tutorials](https://www.tutorialspoint.com/lua/index.htm)
