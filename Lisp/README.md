@@ -2,45 +2,41 @@
 
 # Basic Info
 
-**Name:** [...](wikipedia)
+**Name:** [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language))
 
-**Creator(s):** [...](github/wikipedia)
+**Creator(s):** [John McCarthy](https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist))
 
-**Date:** Month Day, Year
+**Date:** 1958
 
-**Website:** [...](?)
+**Website:** [lisp-lang.org](https://lisp-lang.org)
 
 # Intro
 
-...
+Lisp (historically LISP) is a family of programming languages with a long history and a distinctive, fully parenthesized prefix notation. Originally specified in 1958, Lisp is the second-oldest high-level programming language. Only [Fortran](https://github.com/jgphilpott/babel/blob/main/Fortran/README.md) is older, by one year. Lisp has changed since its early days, and many dialects have existed over its history. Today, the best-known general-purpose Lisp dialects are Racket, Common Lisp, Scheme, and Clojure.
 
 # Syntax
 
-### [Variables](tutorialspoint)
+### [Variables](https://www.tutorialspoint.com/lisp/lisp_variables.htm)
 
 ...
 
-### [If/Else](tutorialspoint)
+### [If/Else](https://www.tutorialspoint.com/lisp/lisp_decisions.htm)
 
 ...
 
-### [Loops](tutorialspoint)
+### [Loops](https://www.tutorialspoint.com/lisp/lisp_loops.htm)
 
 ...
 
-### [Functions](tutorialspoint)
-
-...
-
-### [Classes](tutorialspoint)
+### [Functions](https://www.tutorialspoint.com/lisp/lisp_functions.htm)
 
 ...
 
 # Libraries
 
-...
+ - [Lisp Libraries](https://common-lisp.net/libraries) ~ A list of Lisp libraries.
 
 # More Info
 
- - [Documentation](?)
- - [Tutorials](tutorialspoint)
+ - [Documentation](https://lisp-lang.org/learn)
+ - [Tutorials](https://www.tutorialspoint.com/lisp/index.htm)
