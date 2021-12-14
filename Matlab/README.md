@@ -2,45 +2,41 @@
 
 # Basic Info
 
-**Name:** [...](wikipedia)
+**Name:** [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
 
-**Creator(s):** [...](github/wikipedia)
+**Creator(s):** [Cleve Moler](https://en.wikipedia.org/wiki/Cleve_Moler)
 
-**Date:** Month Day, Year
+**Date:** 1970's
 
-**Website:** [...](?)
+**Website:** [MathWorks](https://www.mathworks.com/products/matlab.html)
 
 # Intro
 
-...
+MATLAB is a proprietary multi-paradigm programming language and numeric computing environment developed by MathWorks. MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages.
 
 # Syntax
 
-### [Variables](tutorialspoint)
+### [Variables](https://www.tutorialspoint.com/matlab/matlab_variables.htm)
 
 ...
 
-### [If/Else](tutorialspoint)
+### [If/Else](https://www.tutorialspoint.com/matlab/matlab_decisions.htm)
 
 ...
 
-### [Loops](tutorialspoint)
+### [Loops](https://www.tutorialspoint.com/matlab/matlab_loops.htm)
 
 ...
 
-### [Functions](tutorialspoint)
-
-...
-
-### [Classes](tutorialspoint)
+### [Functions](https://www.tutorialspoint.com/matlab/matlab_functions.htm)
 
 ...
 
 # Libraries
 
-...
+ - [MATLAB Libraries](https://www.mathworks.com/help/simulink/gui/libraries.html) ~ A collection of MATLAB libraries.
 
 # More Info
 
- - [Documentation](?)
- - [Tutorials](tutorialspoint)
+ - [Documentation](https://www.mathworks.com/help/?s_tid=hp_ff_l_doc)
+ - [Tutorials](https://www.tutorialspoint.com/matlab/index.htm)
