@@ -2,45 +2,41 @@
 
 # Basic Info
 
-**Name:** [...](wikipedia)
+**Name:** [Elixir](https://en.wikipedia.org/wiki/Elixir_(programming_language))
 
-**Creator(s):** [...](github/wikipedia)
+**Creator(s):** [?](github/wikipedia)
 
-**Date:** Month Day, Year
+**Date:** 2012
 
-**Website:** [...](?)
+**Website:** [elixir-lang.org](https://elixir-lang.org)
 
 # Intro
 
-...
+Elixir is a functional, concurrent, general-purpose programming language that runs on the BEAM virtual machine which is also used to implement the Erlang programming language. Elixir builds on top of Erlang and shares the same abstractions for building distributed, fault-tolerant applications. Elixir also provides productive tooling and an extensible design. The latter is supported by compile-time metaprogramming with macros and polymorphism via protocols.
 
 # Syntax
 
-### [Variables](tutorialspoint)
+### [Variables](https://www.tutorialspoint.com/elixir/elixir_variables.htm)
 
 ...
 
-### [If/Else](tutorialspoint)
+### [If/Else](https://www.tutorialspoint.com/elixir/elixir_decision_making.htm)
 
 ...
 
-### [Loops](tutorialspoint)
+### [Loops](https://www.tutorialspoint.com/elixir/elixir_loops.htm)
 
 ...
 
-### [Functions](tutorialspoint)
-
-...
-
-### [Classes](tutorialspoint)
+### [Functions](https://www.tutorialspoint.com/elixir/elixir_functions.htm)
 
 ...
 
 # Libraries
 
-...
+ - [Awesome Elixir](https://github.com/h4cc/awesome-elixir) ~ A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things.
 
 # More Info
 
- - [Documentation](?)
- - [Tutorials](tutorialspoint)
+ - [Documentation](https://elixir-lang.org/getting-started/introduction.html)
+ - [Tutorials](https://www.tutorialspoint.com/elixir/index.htm)
