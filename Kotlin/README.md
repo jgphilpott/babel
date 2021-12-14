@@ -2,45 +2,45 @@
 
 # Basic Info
 
-**Name:** [...](wikipedia)
+**Name:** [Kotlin](https://en.wikipedia.org/wiki/Kotlin_(programming_language))
 
-**Creator(s):** [...](github/wikipedia)
+**Creator(s):** [JetBrains](https://en.wikipedia.org/wiki/JetBrains)
 
-**Date:** Month Day, Year
+**Date:** July 22, 2011
 
-**Website:** [...](?)
+**Website:** [kotlinlang.org](https://kotlinlang.org)
 
 # Intro
 
-...
+Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with [Java](https://github.com/jgphilpott/babel/blob/main/Java/README.md), and the JVM version of Kotlin's standard library depends on the Java Class Library, but type inference allows its syntax to be more concise. Kotlin mainly targets the JVM, but also compiles to JavaScript (e.g. for frontend web applications using React) or native code (e.g. for native iOS apps sharing business logic with Android apps). Language development costs are borne by JetBrains, while the Kotlin Foundation protects the Kotlin trademark.
 
 # Syntax
 
-### [Variables](tutorialspoint)
+### [Variables](https://www.tutorialspoint.com/kotlin/kotlin_variables.htm)
 
 ...
 
-### [If/Else](tutorialspoint)
+### [If/Else](https://www.tutorialspoint.com/kotlin/kotlin_if_else_expression.htm)
 
 ...
 
-### [Loops](tutorialspoint)
+### [Loops](https://www.tutorialspoint.com/kotlin/kotlin_for_loop.htm)
 
 ...
 
-### [Functions](tutorialspoint)
+### [Functions](https://www.tutorialspoint.com/kotlin/kotlin_functions.htm)
 
 ...
 
-### [Classes](tutorialspoint)
+### [Classes](https://www.tutorialspoint.com/kotlin/kotlin_class_and_object.htm)
 
 ...
 
 # Libraries
 
-...
+ - [Awesome Kotlin](https://github.com/mcxiaoke/awesome-kotlin) ~ A curated list of awesome Kotlin frameworks, libraries, documents and other resources.
 
 # More Info
 
- - [Documentation](?)
- - [Tutorials](tutorialspoint)
+ - [Documentation](https://kotlinlang.org/docs/home.html)
+ - [Tutorials](https://www.tutorialspoint.com/kotlin/index.htm)
