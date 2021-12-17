@@ -14,11 +14,19 @@
 
 C++ is a general-purpose programming language created by [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup) as an extension of the [C programming language](https://github.com/jgphilpott/babel/blob/main/C/README.md), or **"C with Classes"**. The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. C++ was designed with an orientation toward system programming and embedded, resource-constrained software and large systems, with performance, efficiency, and flexibility of use as its design highlights.
 
+To [run a C++ file](https://askubuntu.com/questions/61408/what-is-a-command-to-compile-and-run-c-programs) it must first be compiled to binary and then executed. To compile a C++ file use the command `g++ file.cpp`, this will create a file named `a.out`, then to run that file use the `./` command like this `./a.out`.
+
 # Syntax
 
 ### [Variables](https://www.tutorialspoint.com/cplusplus/cpp_variable_types.htm)
 
-...
+As in C, to declare a variable you must first declare it's [type](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm) then its name followed by its value like this:
+
+```cpp
+type variable_name = value;
+```
+
+All statements in C++ must also be ended with a semicolon.
 
 ### [If/Else](https://www.tutorialspoint.com/cplusplus/cpp_decision_making.htm)
 
