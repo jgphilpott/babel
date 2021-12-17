@@ -66,7 +66,28 @@ return_type function_name(parameter_list) {
 
 ### [Classes](https://www.tutorialspoint.com/cplusplus/cpp_classes_objects.htm)
 
-...
+The main purpose of C++ programming is to add object orientation to the C programming language and classes are the central feature of C++ that supports object-oriented programming and are often called user-defined types.
+
+A class definition starts with the keyword `class` followed by the class name and the class body enclosed by a pair of curly braces. Inside the class body you can define it's properties and methods with public, private or protected scope. For example, the code below defines the 'Box' data type.
+
+```cpp
+class Box {
+  public:
+    double length;
+    double breadth;
+    double height;
+};
+```
+
+The public data members of objects of a class can be accessed using the direct member access operator `.` as shown below.
+
+```cpp
+Box my_box;
+
+my_box.height = 5.0;
+my_box.length = 6.0;
+my_box.breadth = 7.0;
+```
 
 # Libraries
 
