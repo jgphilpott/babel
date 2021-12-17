@@ -28,7 +28,7 @@ Here is an alphabetical list of the languages that this repository contains:
  - [Assembly](https://github.com/jgphilpott/babel/blob/main/Assembly/README.md)
  - [C#](https://github.com/jgphilpott/babel/blob/main/C%23/README.md)
  - [C++](https://github.com/jgphilpott/babel/blob/main/C%2B%2B/README.md)
- - [C](https://github.com/jgphilpott/babel/blob/main/C/README.md)
+ - **[C](https://github.com/jgphilpott/babel/blob/main/C/README.md)**
  - [COBOL](https://github.com/jgphilpott/babel/blob/main/COBOL/README.md)
  - [Clojure](https://github.com/jgphilpott/babel/blob/main/Clojure/README.md)
  - [CoffeeScript](https://github.com/jgphilpott/babel/blob/main/CoffeeScript/README.md)
