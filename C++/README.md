@@ -42,7 +42,15 @@ if (true) {
 
 ### [Loops](https://www.tutorialspoint.com/cplusplus/cpp_loop_types.htm)
 
-...
+Loops in C++ are also very similar to other languages the basic syntax is as follows:
+
+```cpp
+for (int i = 0; i < 10; i++) {
+  cout << i << "\n";
+}
+```
+
+There are also **while** loops and **do/while** loops.
 
 ### [Functions](https://www.tutorialspoint.com/cplusplus/cpp_functions.htm)
 
