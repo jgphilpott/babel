@@ -27,15 +27,15 @@ Here is an alphabetical list of the languages that this repository contains:
  - [Ada](https://github.com/jgphilpott/babel/blob/main/Ada/README.md)
  - [Assembly](https://github.com/jgphilpott/babel/blob/main/Assembly/README.md)
  - [C#](https://github.com/jgphilpott/babel/blob/main/C%23/README.md)
- - [C++](https://github.com/jgphilpott/babel/blob/main/C%2B%2B/README.md)
- - **[C](https://github.com/jgphilpott/babel/blob/main/C/README.md)**
+ **- [C++](https://github.com/jgphilpott/babel/blob/main/C%2B%2B/README.md)**
+ **- [C](https://github.com/jgphilpott/babel/blob/main/C/README.md)**
  - [COBOL](https://github.com/jgphilpott/babel/blob/main/COBOL/README.md)
  - [Clojure](https://github.com/jgphilpott/babel/blob/main/Clojure/README.md)
  - [CoffeeScript](https://github.com/jgphilpott/babel/blob/main/CoffeeScript/README.md)
  - [Dart](https://github.com/jgphilpott/babel/blob/main/Dart/README.md)
  - [Elixir](https://github.com/jgphilpott/babel/blob/main/Elixir/README.md)
  - [Fortran](https://github.com/jgphilpott/babel/blob/main/Fortran/README.md)
- - **[Go](https://github.com/jgphilpott/babel/blob/main/Go/README.md)**
+ **- [Go](https://github.com/jgphilpott/babel/blob/main/Go/README.md)**
  - [Groovy](https://github.com/jgphilpott/babel/blob/main/Groovy/README.md)
  - [Haskell](https://github.com/jgphilpott/babel/blob/main/Haskell/README.md)
  - [Java](https://github.com/jgphilpott/babel/blob/main/Java/README.md)
@@ -46,7 +46,7 @@ Here is an alphabetical list of the languages that this repository contains:
  - [Lua](https://github.com/jgphilpott/babel/blob/main/Lua/README.md)
  - [Matlab](https://github.com/jgphilpott/babel/blob/main/Matlab/README.md)
  - [Objective-C](https://github.com/jgphilpott/babel/blob/main/Objective-C/README.md)
- - **[PHP](https://github.com/jgphilpott/babel/blob/main/PHP/README.md)**
+ **- [PHP](https://github.com/jgphilpott/babel/blob/main/PHP/README.md)**
  - [Pascal](https://github.com/jgphilpott/babel/blob/main/Pascal/README.md)
  - [Perl](https://github.com/jgphilpott/babel/blob/main/Perl/README.md)
  - [Python](https://github.com/jgphilpott/babel/blob/main/Python/README.md)
