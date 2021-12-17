@@ -40,11 +40,19 @@ if (true) {
 }
 ```
 
-**Note: To use the `true` and `false` macros in your code be sure to include `<stdbool.h>`.**
+**Note:** To use the `true` and `false` macros in your code be sure to include `<stdbool.h>`.
 
 ### [Loops](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
 
-...
+Loops in C are also very similar to other languages the basic syntax is as follows:
+
+```c
+for (int i = 0; i < 10; i++) {
+  // Do stuff here!
+}
+```
+
+There are also **while** loops and **do/while** loops.
 
 ### [Functions](https://www.tutorialspoint.com/cprogramming/c_functions.htm)
 
