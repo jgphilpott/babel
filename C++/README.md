@@ -54,7 +54,15 @@ There are also **while** loops and **do/while** loops.
 
 ### [Functions](https://www.tutorialspoint.com/cplusplus/cpp_functions.htm)
 
-...
+The main difference between C++ functions and many other languages is that the return type must be specified as well as the type for each parameter in the parameter list.
+
+The basic syntax for C++ functions is as follows:
+
+```cpp
+return_type function_name(parameter_list) {
+  // Do stuff here!
+}
+```
 
 ### [Classes](https://www.tutorialspoint.com/cplusplus/cpp_classes_objects.htm)
 
