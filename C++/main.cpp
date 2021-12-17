@@ -7,4 +7,10 @@ int main() {
 
   cout << greeting;
 
+  if (true) {
+    cout << "True!\n";
+  } else {
+    cout << "False!\n";
+  }
+
 }

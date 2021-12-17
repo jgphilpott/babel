@@ -30,7 +30,15 @@ All statements in C++ must also be ended with a semicolon.
 
 ### [If/Else](https://www.tutorialspoint.com/cplusplus/cpp_decision_making.htm)
 
-...
+If/Else in C++ looks very similar to other languages the basic syntax is as follows:
+
+```cpp
+if (true) {
+  cout << "True!\n";
+} else {
+  cout << "False!\n";
+}
+```
 
 ### [Loops](https://www.tutorialspoint.com/cplusplus/cpp_loop_types.htm)
 
