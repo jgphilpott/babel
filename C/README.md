@@ -30,7 +30,17 @@ All statements in C must also be ended with a semicolon.
 
 ### [If/Else](https://www.tutorialspoint.com/cprogramming/c_decision_making.htm)
 
-...
+If/Else in C looks very similar to other languages the basic syntax is as follows:
+
+```c
+if (true) {
+  printf("True!\n");
+} else {
+  printf("False!\n");
+}
+```
+
+**Note: To use the `true` and `false` macros in your code be sure to include `<stdbool.h>`.**
 
 ### [Loops](https://www.tutorialspoint.com/cprogramming/c_loops.htm)
 
