@@ -28,19 +28,49 @@ name = "Jacob"
 
 ### [If/Else](https://www.tutorialspoint.com/coffeescript/coffeescript_conditionals.htm)
 
-...
+If/Else statements in CoffeeScript are also cleaner than other languages. You don't need brackets around the condition and no curly braces around the body as shown below:
+
+```coffee
+if true
+  console.log "True!"
+else
+  console.log "False!"
+```
 
 ### [Loops](https://www.tutorialspoint.com/coffeescript/coffeescript_loops.htm)
 
-...
+Loops also emit the brackets and curly braces often seen in JavaScript. The syntax for CoffeeScript loops most closely resembles Python loops, see below:
+
+```coffee
+letters = ["a", "b", "c", "d", "e", "f", "g"]
+
+for letter in letters
+  console.log letter
+```
 
 ### [Functions](https://www.tutorialspoint.com/coffeescript/coffeescript_functions.htm)
 
-...
+Functions do require brackets around the arguments list but no curly braces around the body, see below:
+
+```coffee
+greet = (message) ->
+  console.log message
+
+greet("Hello World!")
+```
 
 ### [Classes](https://www.tutorialspoint.com/coffeescript/coffeescript_classes_and_inheritance.htm)
 
-...
+CoffeeScript classes also use the `class` keyword but omit curly braces and use an `@` symbol rather than the keyword `this` to denote properties and methods. A new instance of a class is initialized with the keyword `new`.
+
+```coffee
+class Student
+  constructor: (@name) ->
+
+student = new Student("Mohammed")
+
+console.log student.name
+```
 
 # Libraries
 
