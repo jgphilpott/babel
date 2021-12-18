@@ -31,7 +31,7 @@ Here is an alphabetical list of the languages that this repository contains:
  - **[C](https://github.com/jgphilpott/babel/blob/main/C/README.md)**
  - [COBOL](https://github.com/jgphilpott/babel/blob/main/COBOL/README.md)
  - [Clojure](https://github.com/jgphilpott/babel/blob/main/Clojure/README.md)
- - [CoffeeScript](https://github.com/jgphilpott/babel/blob/main/CoffeeScript/README.md)
+ - **[CoffeeScript](https://github.com/jgphilpott/babel/blob/main/CoffeeScript/README.md)**
  - [Dart](https://github.com/jgphilpott/babel/blob/main/Dart/README.md)
  - [Elixir](https://github.com/jgphilpott/babel/blob/main/Elixir/README.md)
  - [Fortran](https://github.com/jgphilpott/babel/blob/main/Fortran/README.md)
