@@ -14,11 +14,17 @@
 
 CoffeeScript is a programming language that compiles to [JavaScript](https://github.com/jgphilpott/babel/blob/main/JavaScript/README.md). It adds syntactic sugar inspired by [Ruby](https://github.com/jgphilpott/babel/blob/main/Ruby/README.md), [Python](https://github.com/jgphilpott/babel/blob/main/Python/README.md) and [Haskell](https://github.com/jgphilpott/babel/blob/main/Haskell/README.md) in an effort to enhance JavaScript's brevity and readability. Specific additional features include list comprehension and destructuring assignment.
 
+To run a CoffeeScript file you must first compile it to JavaScript, to do that you can use the [official CoffeeScript compiler](https://coffeescript.org/#cli). Once the compiler is installed use the command `coffee -c file.coffee` which will create a corresponding `file.js`. To run the code in your terminal use the command `node file.js`.
+
 # Syntax
 
 ### [Variables](https://www.tutorialspoint.com/coffeescript/coffeescript_variables.htm)
 
-...
+The beauty of CoffeeScript is it's simplicity and readability! To declare and assign a new variable all you need is the variables name followed by an `=` sign and then the value. No keyword `var`, no need to declare a data type and no semicolon!
+
+```coffee
+name = "Jacob"
+```
 
 ### [If/Else](https://www.tutorialspoint.com/coffeescript/coffeescript_conditionals.htm)
 
