@@ -14,6 +14,8 @@
 
 TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. TypeScript is designed for the development of large applications and transcompiles to JavaScript. As TypeScript is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs.
 
+To run a TypeScript file you must first compile it to JavaScript, to do that install a compiler called **tsc** with the command `apt install node-typescript`. Once the compiler is installed use the command `tsc file.ts --outFile file.js`. Then to run the code in your terminal use the command `node file.js`.
+
 # Syntax
 
 ### [Variables](https://www.tutorialspoint.com/typescript/typescript_variables.htm)
