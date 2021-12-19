@@ -52,7 +52,7 @@ Here is an alphabetical list of the languages that this repository contains:
  - **[Python](https://github.com/jgphilpott/babel/blob/main/Python/README.md)**
  - [R](https://github.com/jgphilpott/babel/blob/main/R/README.md)
  - [Raku](https://github.com/jgphilpott/babel/blob/main/Raku/README.md)
- - [Ruby](https://github.com/jgphilpott/babel/blob/main/Ruby/README.md)
+ - **[Ruby](https://github.com/jgphilpott/babel/blob/main/Ruby/README.md)**
  - [Rust](https://github.com/jgphilpott/babel/blob/main/Rust/README.md)
  - [Scala](https://github.com/jgphilpott/babel/blob/main/Scala/README.md)
  - [Scratch](https://github.com/jgphilpott/babel/blob/main/Scratch/README.md)
