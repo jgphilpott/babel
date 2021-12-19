@@ -18,23 +18,60 @@ JavaScript often abbreviated as JS, is a programming language that conforms to t
 
 ### [Variables](https://www.tutorialspoint.com/es6/es6_variables.htm)
 
-...
+Variables in JavaScript can be denoted with the keyword `var` or the keyword `let`. Using semicolons at the end of lines is optional.
+
+```js
+var language = "JavaScript"
+let awsome = true;
+```
 
 ### [If/Else](https://www.tutorialspoint.com/es6/es6_decision_making.htm)
 
-...
+Like many other languages If/Else statements in JavaScript use brackets around the condition and curly braces around the body.
+
+```js
+if (true) {
+  console.log("True!")
+} else {
+  console.log("False!")
+}
+```
 
 ### [Loops](https://www.tutorialspoint.com/es6/es6_loops.htm)
 
-...
+The JavaScript for loop follows the initial/condition/after style shown below.
+
+```js
+for (var i = 0; i < 10; i++) {
+  console.log(i)
+}
+```
 
 ### [Functions](https://www.tutorialspoint.com/es6/es6_functions.htm)
 
-...
+Functions in JavaScript are denoted with the keyword `function` followed by the function name and a list of arguments. Arguments can have optional placeholders as shown below.
+
+```js
+function addTwoNumbers(num1, num2=42) {
+  return num1 + num2
+}
+```
 
 ### [Classes](https://www.tutorialspoint.com/es6/es6_classes.htm)
 
-...
+Classes in JavaScript are denoted with the keyword `class` and the constructor method can be defined with the reserved name `constructor`. New instances of a class are initialized with the keyword `new`.
+
+```js
+class Polygon {
+  constructor(width, height) {
+    this.width = width
+    this.height = height
+  }
+}
+
+var polygon = new Polygon(10, 20)
+console.log("The area of the polygon is: " + polygon.width * polygon.height)
+```
 
 # Libraries
 
