@@ -20,23 +20,67 @@ To run a TypeScript file you must first compile it to JavaScript, to do that ins
 
 ### [Variables](https://www.tutorialspoint.com/typescript/typescript_variables.htm)
 
-...
+TypeScript syntax is almost identical to JavaScript syntax except that it gives you the option to specify [data types](https://www.tutorialspoint.com/typescript/typescript_types.htm) on variables and functions as is common in the C language family. Below is two examples of a variable with and without the type being specified.
+
+```ts
+var message = "Hello World!"
+var message2:string = "Hello World!";
+```
 
 ### [If/Else](https://www.tutorialspoint.com/typescript/typescript_decision_making.htm)
 
-...
+If/Else statements are essentially identical to JavaScript syntax.
+
+```ts
+if (true) {
+  console.log("True!")
+} else {
+  console.log("False!")
+}
+```
 
 ### [Loops](https://www.tutorialspoint.com/typescript/typescript_loops.htm)
 
-...
+Loops are also essentially identical to JavaScript syntax.
+
+```ts
+for (let index = 0; index < 10; index++) {
+  console.log(index)
+}
+```
 
 ### [Functions](https://www.tutorialspoint.com/typescript/typescript_functions.htm)
 
-...
+Functions have the additional option to specify argument types and a return type.
+
+```ts
+function add(num1, num2:number):number {
+  return num1 + num2
+}
+```
 
 ### [Classes](https://www.tutorialspoint.com/typescript/typescript_classes.htm)
 
-...
+Classes are also very much the same as JavaScript.
+
+```ts
+class Car {
+
+  brand:string
+
+  constructor(brand:string) {
+    this.brand = brand
+  }
+
+  display() {
+    console.log("This car is a: " + this.brand + "!")
+  }
+
+}
+
+var myCar = new Car("Tesla")
+myCar.display()
+```
 
 # Libraries
 
