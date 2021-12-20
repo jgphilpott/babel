@@ -54,7 +54,28 @@ fi
 
 ### [Loops](https://www.tutorialspoint.com/unix/unix-loop-control.htm)
 
-...
+In shell script you can do [for loops](https://www.tutorialspoint.com/unix/for-loop.htm), [while loops](https://www.tutorialspoint.com/unix/while-loop.htm), [until loops](https://www.tutorialspoint.com/unix/until-loop.htm) and [select loops](https://www.tutorialspoint.com/unix/select-loop.htm). Each loop type is initiated with it's own keyword but the main block always starts with the keyword `do` and ends with the keyword `done`.
+
+Here is an example for loop:
+
+```sh
+for VAR in 0 1 2 3 4 5 6 7 8 9
+do
+  echo $VAR
+done
+```
+
+Here is an example while loop:
+
+```sh
+NUM=0
+
+while [ $NUM -lt 10 ]
+do
+  echo $NUM
+  NUM=`expr $NUM + 1`
+done
+```
 
 ### [Functions](https://www.tutorialspoint.com/unix/unix-shell-functions.htm)
 
