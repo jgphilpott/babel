@@ -38,7 +38,7 @@ Here is an alphabetical list of the languages that this repository contains:
  - **[Go](https://github.com/jgphilpott/babel/blob/main/Go/README.md)**
  - [Groovy](https://github.com/jgphilpott/babel/blob/main/Groovy/README.md)
  - [Haskell](https://github.com/jgphilpott/babel/blob/main/Haskell/README.md)
- - [Java](https://github.com/jgphilpott/babel/blob/main/Java/README.md)
+ - **[Java](https://github.com/jgphilpott/babel/blob/main/Java/README.md)**
  - **[JavaScript](https://github.com/jgphilpott/babel/blob/main/JavaScript/README.md)**
  - [Julia](https://github.com/jgphilpott/babel/blob/main/Julia/README.md)
  - [Kotlin](https://github.com/jgphilpott/babel/blob/main/Kotlin/README.md)
@@ -53,7 +53,7 @@ Here is an alphabetical list of the languages that this repository contains:
  - [R](https://github.com/jgphilpott/babel/blob/main/R/README.md)
  - [Raku](https://github.com/jgphilpott/babel/blob/main/Raku/README.md)
  - **[Ruby](https://github.com/jgphilpott/babel/blob/main/Ruby/README.md)**
- - [Rust](https://github.com/jgphilpott/babel/blob/main/Rust/README.md)
+ - **[Rust](https://github.com/jgphilpott/babel/blob/main/Rust/README.md)**
  - [Scala](https://github.com/jgphilpott/babel/blob/main/Scala/README.md)
  - [Scratch](https://github.com/jgphilpott/babel/blob/main/Scratch/README.md)
  - [Shell](https://github.com/jgphilpott/babel/blob/main/Shell/README.md)
