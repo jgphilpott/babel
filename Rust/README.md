@@ -65,7 +65,7 @@ hello_fn()
 
 # Libraries
 
- - [Awesome Rust](Awesome Rust) ~ A curated list of Rust code and resources.
+ - [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) ~ A curated list of Rust code and resources.
 
 # More Info
 
