@@ -35,7 +35,7 @@ Here is an alphabetical list of the languages that this repository contains:
  - [Dart](https://github.com/jgphilpott/babel/blob/main/Dart/README.md)
  - [Elixir](https://github.com/jgphilpott/babel/blob/main/Elixir/README.md)
  - [Elm](https://github.com/jgphilpott/babel/blob/main/Elm/README.md)
- - [Fortran](https://github.com/jgphilpott/babel/blob/main/Fortran/README.md)
+ - **[Fortran](https://github.com/jgphilpott/babel/blob/main/Fortran/README.md)**
  - **[Go](https://github.com/jgphilpott/babel/blob/main/Go/README.md)**
  - [Groovy](https://github.com/jgphilpott/babel/blob/main/Groovy/README.md)
  - [Haskell](https://github.com/jgphilpott/babel/blob/main/Haskell/README.md)
@@ -48,7 +48,7 @@ Here is an alphabetical list of the languages that this repository contains:
  - [Matlab](https://github.com/jgphilpott/babel/blob/main/Matlab/README.md)
  - [Objective-C](https://github.com/jgphilpott/babel/blob/main/Objective-C/README.md)
  - **[PHP](https://github.com/jgphilpott/babel/blob/main/PHP/README.md)**
- - [Pascal](https://github.com/jgphilpott/babel/blob/main/Pascal/README.md)
+ - **[Pascal](https://github.com/jgphilpott/babel/blob/main/Pascal/README.md)**
  - [Perl](https://github.com/jgphilpott/babel/blob/main/Perl/README.md)
  - **[Python](https://github.com/jgphilpott/babel/blob/main/Python/README.md)**
  - **[R](https://github.com/jgphilpott/babel/blob/main/R/README.md)**
