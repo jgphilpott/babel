@@ -22,17 +22,35 @@ Fortran needs to be compiled before execution. To compile a Fortran file called 
 
 Fortran variables need to be declared at the start of your program and then assigned a value. To declare a new variable you need to declare it's [type](https://www.tutorialspoint.com/fortran/fortran_data_types.htm) followed by a dubble colon `::` symbol and then it's name. The variables value can then be assigned with an `=` sign.
 
-```
+```f
 real :: pi
-integer :: num
 
 pi = 3.14
-num = 42
+```
+
+... or ...
+
+```f
+integer :: num = 42
 ```
 
 ### [If/Else](https://www.tutorialspoint.com/fortran/fortran_decisions.htm)
 
-...
+If/Else statements in Fortran use brackets around the condition followed by the keyword `then`, the statement is ended with the keywords `end if`.
+
+```f
+integer :: num = 42
+
+if (num > 42) then
+  print*, "The number is > 42!"
+else if (num < 42) then
+  print*, "The number is < 42!"
+else if (num /= 42) then
+  print*, "The number is NOT 42!"
+else
+  print*, "It's 42!!!"
+end if
+```
 
 ### [Loops](https://www.tutorialspoint.com/fortran/fortran_loops.htm)
 
