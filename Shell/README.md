@@ -79,7 +79,22 @@ done
 
 ### [Functions](https://www.tutorialspoint.com/unix/unix-shell-functions.htm)
 
-...
+Defining functions in shell script is as easy as declaring the name of the function, an arguments list in brackets and the body of the function in curly braces. Inside functions you can access arguments with the position variable. To call a function simple write it's name followed by any arguments.
+
+```sh
+hello_world () {
+  echo "Hello World!"
+}
+
+hello () {
+  echo "Hello $1!"
+}
+
+NAME="Jacob"
+
+hello_world
+hello $NAME
+```
 
 # Libraries
 

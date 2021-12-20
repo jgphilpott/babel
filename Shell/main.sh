@@ -37,3 +37,15 @@ do
   echo $NUM
   NUM=`expr $NUM + 1`
 done
+
+# Functions
+hello_world () {
+  echo "Hello World!"
+}
+
+hello () {
+  echo "Hello $1!"
+}
+
+hello_world
+hello $NAME
