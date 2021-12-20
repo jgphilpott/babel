@@ -22,7 +22,7 @@ Fortran needs to be compiled before execution. To compile a Fortran file called 
 
 Fortran variables need to be declared at the start of your program and then assigned a value. To declare a new variable you need to declare it's [type](https://www.tutorialspoint.com/fortran/fortran_data_types.htm) followed by a dubble colon `::` symbol and then it's name. The variables value can then be assigned with an `=` sign.
 
-```f
+```f90
 real :: pi
 
 pi = 3.14
@@ -30,7 +30,7 @@ pi = 3.14
 
 ... or ...
 
-```f
+```f90
 integer :: num = 42
 ```
 
@@ -38,7 +38,7 @@ integer :: num = 42
 
 If/Else statements in Fortran use brackets around the condition followed by the keyword `then`, the statement is ended with the keywords `end if`.
 
-```f
+```f90
 integer :: num = 42
 
 if (num > 42) then
@@ -56,7 +56,7 @@ end if
 
 The most common Fortran loop is the while loop. It starts with the keywords `do while` followed by a condition in brackets and is ended with the keywords `end do`.
 
-```f
+```f90
 integer :: num = 10
 
 do while (num >= 0)
@@ -69,7 +69,7 @@ end do
 
 Functions in Fortran should be declared outside the main program block. They are started with the keyword `function` followed by a name and an arguments list in brackets. They are ended with the keywords `end function` followed by the function name. **The return value of the function can be saved to a variable with the same name as the function.**
 
-```f
+```f90
 function area_of_circle(radius)
 
   real :: pi = 4 * atan (1.0)
