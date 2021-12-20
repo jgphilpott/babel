@@ -54,11 +54,29 @@ end if
 
 ### [Loops](https://www.tutorialspoint.com/fortran/fortran_loops.htm)
 
-...
+The most common Fortran loop is the while loop. It starts with the keywords `do while` followed by a condition in brackets and is ended with the keywords `end do`.
 
-### [Functions](https://www.tutorialspoint.com/fortran/fortran_intrinsic_functions.htm)
+```f
+integer :: num = 10
 
-...
+do while (num >= 0)
+  print*,  num
+  num = num - 1
+end do
+```
+
+### [Functions](https://www.tutorialspoint.com/fortran/fortran_procedures.htm)
+
+Functions in Fortran should be declared outside the main program block. They are started with the keyword `function` followed by a name and an arguments list in brackets. They are ended with the keywords `end function` followed by the function name. **The return value of the function can be saved to a variable with the same name as the function.**
+
+```f
+function area_of_circle(radius)
+
+  real :: pi = 4 * atan (1.0)
+  area_of_circle = pi * radius**2
+
+end function area_of_circle
+```
 
 # Libraries
 
