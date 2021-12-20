@@ -34,6 +34,7 @@ Here is an alphabetical list of the languages that this repository contains:
  - **[CoffeeScript](https://github.com/jgphilpott/babel/blob/main/CoffeeScript/README.md)**
  - [Dart](https://github.com/jgphilpott/babel/blob/main/Dart/README.md)
  - [Elixir](https://github.com/jgphilpott/babel/blob/main/Elixir/README.md)
+ - [Elm](https://github.com/jgphilpott/babel/blob/main/Elm/README.md)
  - [Fortran](https://github.com/jgphilpott/babel/blob/main/Fortran/README.md)
  - **[Go](https://github.com/jgphilpott/babel/blob/main/Go/README.md)**
  - [Groovy](https://github.com/jgphilpott/babel/blob/main/Groovy/README.md)
@@ -50,13 +51,13 @@ Here is an alphabetical list of the languages that this repository contains:
  - [Pascal](https://github.com/jgphilpott/babel/blob/main/Pascal/README.md)
  - [Perl](https://github.com/jgphilpott/babel/blob/main/Perl/README.md)
  - **[Python](https://github.com/jgphilpott/babel/blob/main/Python/README.md)**
- - [R](https://github.com/jgphilpott/babel/blob/main/R/README.md)
+ - **[R](https://github.com/jgphilpott/babel/blob/main/R/README.md)**
  - [Raku](https://github.com/jgphilpott/babel/blob/main/Raku/README.md)
  - **[Ruby](https://github.com/jgphilpott/babel/blob/main/Ruby/README.md)**
  - **[Rust](https://github.com/jgphilpott/babel/blob/main/Rust/README.md)**
  - [Scala](https://github.com/jgphilpott/babel/blob/main/Scala/README.md)
  - [Scratch](https://github.com/jgphilpott/babel/blob/main/Scratch/README.md)
- - [Shell](https://github.com/jgphilpott/babel/blob/main/Shell/README.md)
+ - **[Shell](https://github.com/jgphilpott/babel/blob/main/Shell/README.md)**
  - [Swift](https://github.com/jgphilpott/babel/blob/main/Swift/README.md)
  - **[TypeScript](https://github.com/jgphilpott/babel/blob/main/TypeScript/README.md)**
  - [VB](https://github.com/jgphilpott/babel/blob/main/VB/README.md)
