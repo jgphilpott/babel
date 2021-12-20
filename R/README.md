@@ -14,15 +14,35 @@
 
 R is a programming language and free software environment for statistical computing and graphics. It is supported by the R Core Team and the R Foundation for Statistical Computing. It is widely used among statisticians and data miners for developing statistical software and data analysis. It is written primarily in [C](https://github.com/jgphilpott/babel/blob/main/C/README.md), [Fortran](https://github.com/jgphilpott/babel/blob/main/Fortran/README.md) and [R](https://github.com/jgphilpott/babel/blob/main/R/README.md) itself (partially self-hosting) and is available under the GNU General Public License.
 
+To run an R script from the terminal use the command `Rscript file.r`.
+
 # Syntax
 
 ### [Variables](https://www.tutorialspoint.com/r/r_variables.htm)
 
-...
+Variables in R can be assigned using a leftward (`<-`), rightward (`->`) and equal (`=`) to operator.
+
+```r
+greeting = "Hello World!"
+number <- 42
+FALSE -> bool
+
+print(greeting)
+print(number)
+print(bool)
+```
 
 ### [If/Else](https://www.tutorialspoint.com/r/r_decision_making.htm)
 
-...
+If/Else statements in R are like many other languages with brackets around the condition and curly braces around the body.
+
+```r
+if (TRUE) {
+    print("True!")
+} else {
+    print("False!")
+}
+```
 
 ### [Loops](https://www.tutorialspoint.com/r/r_loops.htm)
 
