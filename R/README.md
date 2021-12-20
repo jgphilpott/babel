@@ -46,11 +46,41 @@ if (TRUE) {
 
 ### [Loops](https://www.tutorialspoint.com/r/r_loops.htm)
 
-...
+The most common loops in R are for loops and while loops. The syntax is very much the same as other languages with brackets around the condition and curly braces around the body.
+
+Here is an example for loop:
+
+```r
+letters = c("A", "B", "C")
+
+for (letter in letters) {
+    print(letter)
+}
+```
+
+Here is an example while loop:
+
+```r
+num = 0
+
+while (num < 10) {
+    print(num)
+    num = num + 1
+}
+```
 
 ### [Functions](https://www.tutorialspoint.com/r/r_functions.htm)
 
-...
+Functions in R are also very much the same as other languages with brackets around the condition and curly braces around the body.
+
+```r
+add <- function(num1, num2=42) {
+    return(num1 + num2)
+}
+
+print(add(1, 2))
+print(add(3))
+```
 
 # Libraries
 
