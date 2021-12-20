@@ -15,14 +15,14 @@ fn main() {
         println!("False!");
     }
 
-   for x in 1..11 { // 11 is not inclusive.
-      println!("x is: {}", x);
-   }
+    for x in 1..11 { // 11 is not inclusive.
+        println!("x is: {}", x);
+    }
 
     hello_fn()
 
 }
 
 fn hello_fn() {
-   println!("Hello from a function!");
+    println!("Hello from a function!");
 }

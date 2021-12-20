@@ -16,23 +16,52 @@ Rust is a multi-paradigm, general-purpose programming language designed for perf
 
 Rust has been voted the "most loved programming language" in the Stack Overflow Developer Survey every year since 2016, though only used by 7% of the respondents in 2021.
 
+Rust must be compiled before execution. You can use the standard Rust compiler with the command `rustc file.rs` and then execute the output file with the command `./file`.
+
 # Syntax
 
 ### [Variables](https://www.tutorialspoint.com/rust/rust_variables.htm)
 
-...
+Variables in Rust are denoted with the keyword `let` followed by the variable name, an `=` sign and the value. You can optional specify a [data type](https://www.tutorialspoint.com/rust/rust_data_types.htm). All lines must be ended with a semicolon.
+
+```rs
+let variable_name = value;
+let variable_name:dataType = value;
+```
 
 ### [If/Else](https://www.tutorialspoint.com/rust/rust_decision_making.htm)
 
-...
+If/Else is very similar to other languages, in Rust you don't need brackets around the condition but curly braces are required around the body.
+
+```rs
+if true {
+    println!("True!");
+} else {
+    println!("False!");
+}
+```
 
 ### [Loops](https://www.tutorialspoint.com/rust/rust_loop.htm)
 
-...
+Rust loops resemble Python loops but require curly braces around the body.
+
+```rs
+for x in 1..11 { // 11 is not inclusive.
+    println!("x is: {}", x);
+}
+```
 
 ### [Functions](https://www.tutorialspoint.com/rust/rust_functions.htm)
 
-...
+Functions in Rust are denoted with the keyword `fn`. You can also optionally specify the argument data types and the return type.
+
+```rs
+fn hello_fn() {
+    println!("Hello from a function!");
+}
+
+hello_fn()
+```
 
 # Libraries
 
