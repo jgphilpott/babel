@@ -35,9 +35,9 @@ If/Else is very similar to other languages, in Rust you don't need brackets arou
 
 ```rs
 if true {
-    println!("True!");
+  println!("True!");
 } else {
-    println!("False!");
+  println!("False!");
 }
 ```
 
@@ -47,7 +47,7 @@ Rust loops resemble Python loops but require curly braces around the body.
 
 ```rs
 for x in 1..11 { // 11 is not inclusive.
-    println!("x is: {}", x);
+  println!("x is: {}", x);
 }
 ```
 
@@ -57,7 +57,7 @@ Functions in Rust are denoted with the keyword `fn`. You can also optionally spe
 
 ```rs
 fn hello_fn() {
-    println!("Hello from a function!");
+  println!("Hello from a function!");
 }
 
 hello_fn()
