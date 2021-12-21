@@ -16,15 +16,35 @@ Perl is a family of two high-level, general-purpose, interpreted, dynamic progra
 
 Raku, which began as a redesign of Perl 5 in 2000, eventually evolved into a separate language. Both languages continue to be developed independently by different development teams and liberally borrow ideas from each other. It has been nicknamed "the Swiss Army chainsaw of scripting languages" because of its flexibility and power, and also its ugliness. In 1998, it was also referred to as the "duct tape that holds the Internet together" in reference to both its ubiquitous use as a glue language and its perceived inelegance.
 
+To run a Perl file from the command line use the command `perl` followed by the name of the file.
+
 # Syntax
 
 ### [Variables](https://www.tutorialspoint.com/perl/perl_variables.htm)
 
-...
+A scalar variable must be precede by a `$` sign and it can store either a number, a string, or a reference. An array variable must be precede by a `@` sign and will store ordered lists of scalars. A Hash variable must be precede by a `%` sign and will be used to store sets of key/value pairs.
+
+```pl
+$num = 42;
+$pi = 3.14;
+$name = "Jacob Philpott";
+@letters = ("A", "B", "C");
+%people = ('John Paul', 45, 'Lisa', 30, 'Kumar', 40);
+```
+
+**All lines must be ended with a semicolon.**
 
 ### [If/Else](https://www.tutorialspoint.com/perl/perl_conditions.htm)
 
-...
+If/Else statements in Perl are very similar to other languages with brackets around the condition and curly braces around the body.
+
+```pl
+if (true) {
+  print "True!\n"
+} else {
+  print "False!\n"
+}
+```
 
 ### [Loops](https://www.tutorialspoint.com/perl/perl_loops.htm)
 
