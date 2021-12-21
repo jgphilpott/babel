@@ -49,7 +49,7 @@ Here is an alphabetical list of the languages that this repository contains:
  - [Objective-C](https://github.com/jgphilpott/babel/blob/main/Objective-C/README.md)
  - **[PHP](https://github.com/jgphilpott/babel/blob/main/PHP/README.md)**
  - **[Pascal](https://github.com/jgphilpott/babel/blob/main/Pascal/README.md)**
- - [Perl](https://github.com/jgphilpott/babel/blob/main/Perl/README.md)
+ - **[Perl](https://github.com/jgphilpott/babel/blob/main/Perl/README.md)**
  - **[Python](https://github.com/jgphilpott/babel/blob/main/Python/README.md)**
  - **[R](https://github.com/jgphilpott/babel/blob/main/R/README.md)**
  - [Raku](https://github.com/jgphilpott/babel/blob/main/Raku/README.md)
