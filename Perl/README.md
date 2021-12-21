@@ -48,15 +48,58 @@ if (true) {
 
 ### [Loops](https://www.tutorialspoint.com/perl/perl_loops.htm)
 
-...
+The most common loops are for loops and while loops. They both use brackets around the condition and curly braces around the body. The for loop follows the classic initial/condition/after style.
 
-### [Functions](https://www.tutorialspoint.com/perl/perl_my.htm)
+```pl
+for ($x = 0; $x < 10; $x = $x + 1) {
+  print "The value of x is: $x\n";
+}
 
-...
+while ($x >= 0) {
+  printf "The value of x is: $x\n";
+  $x = $x - 1;
+}
+```
 
-### [Classes](https://www.tutorialspoint.com/perl/perl_object_oriented.htm)
+### [Subroutines](https://www.tutorialspoint.com/perl/perl_subroutines.htm)
 
-...
+Functions in Perl are called subroutines. A subroutine can be declared with the keyword `sub` followed by a name and a pair of curly braces. Arguments passed to the subroutine can be accessed inside using the special `@_` array.
+
+```pl
+sub average {
+
+  $sum = 0;
+
+  foreach $item (@_) {
+    $sum += $item;
+  }
+
+  return $sum / scalar(@_);
+
+}
+
+$result = average(5, 10, 20, 40, 80);
+```
+
+### [Packages](https://www.tutorialspoint.com/perl/perl_object_oriented.htm)
+
+Classes in Perl are called packages and must have a name that matches the file name. To define a package use the keyword `package` followed by the name. In Perl the constructor method inside the package can have any name but the convention is to call it `new`. The basic Syntax for defining a package is shown below.
+
+```pl
+package Person;
+sub new {
+
+  my $class = shift;
+  my $self = {
+    firstName => shift,
+    lastName => shift,
+    age => shift
+  };
+
+  return $self;
+
+}
+```
 
 # Libraries
 
