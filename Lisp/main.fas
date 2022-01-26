@@ -21,11 +21,11 @@
    (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
 #Y(#:|7 7 (FRESH-LINE)-6| #16Y(00 00 00 00 00 00 00 00 20 01 38 01 31 98 19 01)
    () (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
-#Y(#:|9 10 (LET (# # #) (FORMAT T "x = ~a, y = ~a, z = ~a" ...))-7|
+#Y(#:|9 9 (LET (# # #) (FORMAT T "x = ~a, y = ~a, z = ~a" ...))-7|
    #26Y(00 00 00 00 00 00 00 00 20 01 C5 10 01 DC 6B 03 6B 01 DE DF 33 04 15 11
         19 01)
    (|COMMON-LISP-USER|::|A| |COMMON-LISP-USER|::|X|
-    #Y(#:|9 10 (LET (# # #) (FORMAT T "x = ~a, y = ~a, z = ~a" ...))-7-1|
+    #Y(#:|9 9 (LET (# # #) (FORMAT T "x = ~a, y = ~a, z = ~a" ...))-7-1|
        #47Y(00 00 00 00 04 00 00 00 21 1A 00 10 00 DB B5 38 02 31 95 B3 B5 31
             90 DC B5 38 02 31 95 B2 B5 31 90 DD B5 38 02 31 95 B1 B5 31 90 A1
             11 19 06)
@@ -34,15 +34,15 @@
     |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|B|
     |COMMON-LISP-USER|::|C|)
    (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
-#Y(#:|11 11 (FRESH-LINE)-8|
+#Y(#:|10 10 (FRESH-LINE)-8|
    #16Y(00 00 00 00 00 00 00 00 20 01 38 01 31 98 19 01) ()
    (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
-#Y(#:|13 14 (PROG (# # #) (FORMAT T "x = ~a, y = ~a, z = ~a" ...))-9|
+#Y(#:|11 11 (PROG (# # #) (FORMAT T "x = ~a, y = ~a, z = ~a" ...))-9|
    #27Y(00 00 00 00 00 00 00 00 20 01 C5 10 01 DC 6B 03 6B 01 DE DF 33 04 15 00
         11 19 01)
    ((|COMMON-LISP-USER|::|A| |COMMON-LISP-USER|::|B| |COMMON-LISP-USER|::|C|)
     |COMMON-LISP-USER|::|X|
-    #Y(#:|13 14 (PROG (# # #) (FORMAT T "x = ~a, y = ~a, z = ~a" ...))-9-1|
+    #Y(#:|11 11 (PROG (# # #) (FORMAT T "x = ~a, y = ~a, z = ~a" ...))-9-1|
        #47Y(00 00 00 00 04 00 00 00 21 1A 00 10 00 DB B5 38 02 31 95 B3 B5 31
             90 DC B5 38 02 31 95 B2 B5 31 90 DD B5 38 02 31 95 B1 B5 31 90 A1
             11 19 06)
@@ -51,6 +51,55 @@
     |COMMON-LISP|::|*STANDARD-OUTPUT*| (1. 2. 3.)
     (|COMMON-LISP-USER|::|P| |COMMON-LISP-USER|::|Q| 10.))
    (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
-#Y(#:|15 15 (FRESH-LINE)-10|
+#Y(#:|13 13 (SETQ NUM 10)-10|
+   #15Y(00 00 00 00 00 00 00 00 20 01 C5 0F 01 19 01)
+   (10. |COMMON-LISP-USER|::|NUM|)
+   (|COMMON-LISP|::|NIL| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|15 16 (IF (< NUM 20) (FORMAT T "~%Less than 20!"))-11|
+   #28Y(00 00 00 00 00 00 00 00 20 01 6B 00 DB 33 01 31 1F 08 DC 6B 03 33 01 15
+        19 01 19 01)
+   (|COMMON-LISP-USER|::|NUM| 20.
+    #Y(#:|15 16 (IF (< NUM 20) (FORMAT T "~%Less than 20!"))-11-1|
+       #23Y(00 00 00 00 01 00 00 00 21 17 00 10 00 DB B2 38 02 31 95 A1 11 19
+            03)
+       (|SYSTEM|::|*FORMAT-CS*|
+        "\n
+Less than 20!")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|17 17 (FORMAT T "~%The value of num is ~d." ...)-12|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 6B 02 33 02 15 19 01)
+   (#Y(#:|17 17 (FORMAT T "~%The value of num is ~d." ...)-12-1|
+       #34Y(00 00 00 00 02 00 00 00 21 18 00 10 00 DB B3 38 02 31 95 B2 01 06
+            B8 2D 08 02 DD B3 31 94 A1 11 19 04)
+       (|SYSTEM|::|*FORMAT-CS*|
+        "\n
+The value of num is "
+        |SYSTEM|::|DO-FORMAT-DECIMAL| #\.)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|NUM|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|19 19 (FRESH-LINE)-13|
    #16Y(00 00 00 00 00 00 00 00 20 01 38 01 31 98 19 01) ()
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|21 26 (LOOP (WRITE NUM) (FRESH-LINE) ...)-14|
+   #34Y(00 00 00 00 00 00 00 00 20 01 6B 00 38 11 31 8C 38 01 31 98 6B 00 32 B2
+        0F 00 14 8E AD 6C 0E 00 19 01)
+   (|COMMON-LISP-USER|::|NUM|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|28 30 (DEFUN AVERAGENUM (N1 N2 N3 ...) ...)-15|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|AVERAGENUM| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|AVERAGENUM|
+       #23Y(00 00 00 00 04 00 00 00 26 05 DA B1 B1 B1 B1 73 04 37 33 02 39 19
+            05)
+       (#10r1/4) (|COMMON-LISP|::|T| |COMMON-LISP|::|NIL| |COMMON-LISP|::|NIL|)
+       (|COMMON-LISP-USER|::|N1| |COMMON-LISP-USER|::|N2|
+        |COMMON-LISP-USER|::|N3| |COMMON-LISP-USER|::|N4|)
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|31 31 (WRITE (AVERAGENUM 10 20 ...))-16|
+   #23Y(00 00 00 00 00 00 00 00 20 01 DA DB DC DD 6E 04 04 38 11 31 8C 19 01)
+   (10. 20. 30. 40. |COMMON-LISP-USER|::|AVERAGENUM|)
    (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
