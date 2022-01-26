@@ -20,30 +20,54 @@ Lisp (historically LISP) is a family of programming languages with a long histor
 
 ### [Variables](https://www.tutorialspoint.com/lisp/lisp_variables.htm)
 
-Lisp has a very distinct syntax, all commands are written as a list enclosed in parentheses. Global variables are assigned with the keyword `defvar` or `setq`. Local variables are assigned with the keyword `let` or `prog`.
+Lisp has a very distinct syntax, all commands are written as a list enclosed in parentheses. Global variables are assigned with the keyword `setq` or `defvar`. Local variables are assigned with the keyword `let` or `prog`.
 
 ```lisp
-(defvar x 123)
-(setq y 'abc)
+(setq x 'abc)
+(defvar y 123)
 
-(let ((x 'a) (y 'b) (z 'c))
-(format t "x = ~a, y = ~a, z = ~a" x y z))
-
-(prog ((x '(a b c)) (y '(1 2 3)) (z '(p q 10)))
-(format t "x = ~a, y = ~a, z = ~a" x y z))
+(let ((x 'a) (y 'b) (z 'c)) (format t "x = ~a, y = ~a, z = ~a" x y z))
+(prog ((x '(a b c)) (y '(1 2 3)) (z '(p q 10))) (format t "x = ~a, y = ~a, z = ~a" x y z))
 ```
 
 ### [If/Else](https://www.tutorialspoint.com/lisp/lisp_decisions.htm)
 
-...
+If statements use the keyword `if` and an optional keyword `then`.
+
+```lisp
+(setq num 10)
+
+(if (< num 20)
+   (format t "~%Less than 20!"))
+(format t "~%The value of num is ~d." num)
+```
 
 ### [Loops](https://www.tutorialspoint.com/lisp/lisp_loops.htm)
 
-...
+Lisp provides a variety of loop types, one of witch is shown below.
+
+```lisp
+(setq num 10)
+
+(loop
+   (write num)
+   (FRESH-LINE)
+   (setq num (- num 1))
+   (when (<= num 0) (return num))
+)
+```
 
 ### [Functions](https://www.tutorialspoint.com/lisp/lisp_functions.htm)
 
-...
+Functions are declared using the keyword `defun` and require a name, parameters and a body.
+
+```lisp
+(defun averagenum (n1 n2 n3 n4)
+   (/ ( + n1 n2 n3 n4) 4)
+)
+
+(write(averagenum 10 20 30 40))
+```
 
 # Libraries
 
