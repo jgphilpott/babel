@@ -32,7 +32,7 @@ Here is an alphabetical list of the languages that this repository contains:
  - [COBOL](https://github.com/jgphilpott/babel/blob/main/COBOL/README.md)
  - [Clojure](https://github.com/jgphilpott/babel/blob/main/Clojure/README.md)
  - **[CoffeeScript](https://github.com/jgphilpott/babel/blob/main/CoffeeScript/README.md)**
- - [Dart](https://github.com/jgphilpott/babel/blob/main/Dart/README.md)
+ - **[Dart](https://github.com/jgphilpott/babel/blob/main/Dart/README.md)**
  - [Elixir](https://github.com/jgphilpott/babel/blob/main/Elixir/README.md)
  - [Elm](https://github.com/jgphilpott/babel/blob/main/Elm/README.md)
  - **[Fortran](https://github.com/jgphilpott/babel/blob/main/Fortran/README.md)**
@@ -43,7 +43,7 @@ Here is an alphabetical list of the languages that this repository contains:
  - **[JavaScript](https://github.com/jgphilpott/babel/blob/main/JavaScript/README.md)**
  - [Julia](https://github.com/jgphilpott/babel/blob/main/Julia/README.md)
  - [Kotlin](https://github.com/jgphilpott/babel/blob/main/Kotlin/README.md)
- - [Lisp](https://github.com/jgphilpott/babel/blob/main/Lisp/README.md)
+ - **[Lisp](https://github.com/jgphilpott/babel/blob/main/Lisp/README.md)**
  - [Lua](https://github.com/jgphilpott/babel/blob/main/Lua/README.md)
  - [Matlab](https://github.com/jgphilpott/babel/blob/main/Matlab/README.md)
  - [Objective-C](https://github.com/jgphilpott/babel/blob/main/Objective-C/README.md)
