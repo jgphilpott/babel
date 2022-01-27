@@ -41,7 +41,7 @@ Here is an alphabetical list of the languages that this repository contains:
  - [Haskell](https://github.com/jgphilpott/babel/blob/main/Haskell/README.md)
  - **[Java](https://github.com/jgphilpott/babel/blob/main/Java/README.md)**
  - **[JavaScript](https://github.com/jgphilpott/babel/blob/main/JavaScript/README.md)**
- - [Julia](https://github.com/jgphilpott/babel/blob/main/Julia/README.md)
+ - **[Julia](https://github.com/jgphilpott/babel/blob/main/Julia/README.md)**
  - [Kotlin](https://github.com/jgphilpott/babel/blob/main/Kotlin/README.md)
  - **[Lisp](https://github.com/jgphilpott/babel/blob/main/Lisp/README.md)**
  - [Lua](https://github.com/jgphilpott/babel/blob/main/Lua/README.md)
