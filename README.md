@@ -37,12 +37,12 @@ Here is an alphabetical list of the languages that this repository contains:
  - [Elm](https://github.com/jgphilpott/babel/blob/main/Elm/README.md)
  - **[Fortran](https://github.com/jgphilpott/babel/blob/main/Fortran/README.md)**
  - **[Go](https://github.com/jgphilpott/babel/blob/main/Go/README.md)**
- - [Groovy](https://github.com/jgphilpott/babel/blob/main/Groovy/README.md)
+ - **[Groovy](https://github.com/jgphilpott/babel/blob/main/Groovy/README.md)**
  - [Haskell](https://github.com/jgphilpott/babel/blob/main/Haskell/README.md)
  - **[Java](https://github.com/jgphilpott/babel/blob/main/Java/README.md)**
  - **[JavaScript](https://github.com/jgphilpott/babel/blob/main/JavaScript/README.md)**
  - **[Julia](https://github.com/jgphilpott/babel/blob/main/Julia/README.md)**
- - [Kotlin](https://github.com/jgphilpott/babel/blob/main/Kotlin/README.md)
+ - **[Kotlin](https://github.com/jgphilpott/babel/blob/main/Kotlin/README.md)**
  - **[Lisp](https://github.com/jgphilpott/babel/blob/main/Lisp/README.md)**
  - [Lua](https://github.com/jgphilpott/babel/blob/main/Lua/README.md)
  - [Matlab](https://github.com/jgphilpott/babel/blob/main/Matlab/README.md)
