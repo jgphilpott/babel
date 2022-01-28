@@ -18,23 +18,70 @@ Apache Groovy is a Java-syntax-compatible object-oriented programming language f
 
 ### [Variables](https://www.tutorialspoint.com/groovy/groovy_variables.htm)
 
-...
+Variables in Groovy are declared using the variable type as a keyword followed by the name of the variable, an `=` sign and the value.
+
+```groovy
+String name = "Jacob"
+int num = 42
+float pi = 3.14
+Boolean groovy = true
+```
 
 ### [If/Else](https://www.tutorialspoint.com/groovy/groovy_decision_making.htm)
 
-...
+If/Else statements in Groovy are very similar to other languages with the condition in brackets and the body inside curly braces.
+
+```groovy
+Boolean groovy = true
+
+if (groovy) {
+    println("Groovy!")
+} else {
+    println("Not Groovy!")
+}
+```
 
 ### [Loops](https://www.tutorialspoint.com/groovy/groovy_loops.htm)
 
-...
+Groovy provids a variaty of loop types, a simple for loop is shown below.
+
+```groovy
+for (int i = 0; i < 10; i++) {
+    println(i)
+}
+```
 
 ### [Methods](https://www.tutorialspoint.com/groovy/groovy_methods.htm)
 
-...
+Functions in Groovy are called methods and are declared with the keyword `def`.
+
+```groovy
+def area(width, length) {
+    return width * length
+}
+
+println(area(12, 34))
+```
 
 ### [Classes](https://www.tutorialspoint.com/groovy/groovy_object_oriented.htm)
 
-...
+Classes in Groovy are declared with the keyword `class` and initilized with the keyword `new`.
+
+```groovy
+class Person {
+
+    String name;
+
+    def showName() {
+        println(name)
+    }
+
+}
+
+Person p1 = new Person();
+p1.name = "Jacob";
+p1.showName()
+```
 
 # Libraries
 
