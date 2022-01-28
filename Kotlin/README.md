@@ -18,23 +18,80 @@ Kotlin is a cross-platform, statically typed, general-purpose programming langua
 
 ### [Variables](https://www.tutorialspoint.com/kotlin/kotlin_variables.htm)
 
-...
+To declare a variable in Koltin you can use the keyword `var` or `val` followed by the name of the variable, an `=` sign and the value.
+
+```kt
+var name = "Jacob"
+val number = 42
+```
 
 ### [If/Else](https://www.tutorialspoint.com/kotlin/kotlin_if_else_expression.htm)
 
-...
+If/Else statements in Koltin are very much the same as other languages with brackets around the condition and curly braces around the body.
+
+```kt
+if (true) {
+    print("True!")
+} else if (false) {
+    print("False!")
+} else {
+    print("WTF?!")
+}
+```
 
 ### [Loops](https://www.tutorialspoint.com/kotlin/kotlin_for_loop.htm)
 
-...
+Koltin provides a variety of loop types, a simple for loop is shown below. The basic syntax is the same as if/else statements with brackets around the condition and curly braces around the body.
+
+```kt
+var fruits = arrayOf("Orange", "Apple", "Mango", "Banana")
+
+for (fruit in fruits) {
+    println(fruit)
+}
+```
 
 ### [Functions](https://www.tutorialspoint.com/kotlin/kotlin_functions.htm)
 
-...
+Koltin functions are declared with the keyword `fun` and look very similar to other languages. Brackets are required around the arguments list and curly braces around the body. You can also specify argument types and the return type.
+
+```kt
+fun sum(a:Int, b:Int):Int {
+
+    var sum = a + b
+    println(sum)
+    return sum
+
+}
+
+sum(12, 34)
+```
 
 ### [Classes](https://www.tutorialspoint.com/kotlin/kotlin_class_and_object.htm)
 
-...
+Classes in Koltin are declared with the keyword `class`. Constructor variables can be declared at class header level and initialization code can be placed inside a special block prefixed with the `init` keyword.
+
+```kt
+class Person (val _name:String, val _age:Int) {
+
+    var name:String
+    var age:Int
+
+    init {
+
+        this.name = _name
+        this.age = _age
+
+        println("Name = $name")
+        println("Age = $age")
+
+    }
+
+}
+
+val zara = Person("Zara", 17)
+val nuha = Person("Nuha", 11)
+```
 
 # Libraries
 
