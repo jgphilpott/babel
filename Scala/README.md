@@ -18,23 +18,82 @@ Scala is a strong statically typed general-purpose programming language which su
 
 ### [Variables](https://www.tutorialspoint.com/scala/scala_variables.htm)
 
-...
+Variables in Scala can be declared with the keyword `var` or `val` followed by the name of the variable, an `=` sign and the value. You can also optionally specify a data type.
+
+```scala
+var name = "Jacob"
+val num = 42
+```
 
 ### [If/Else](https://www.tutorialspoint.com/scala/scala_if_else.htm)
 
-...
+If/Else statements in Scala are very similar to other languages with brackets around the condition and curly braces around the body.
+
+```scala
+if (true) {
+    println("True!")
+} else if (false) {
+    println("False!")
+} else {
+    println("WTF?!")
+}
+```
 
 ### [Loops](https://www.tutorialspoint.com/scala/scala_loop_types.htm)
 
-...
+Loops in Scala are very similar to other languages, see one example below.
+
+```scala
+for (x <- 1 to 10) {
+    println("The value of x is: " + x)
+}
+```
 
 ### [Functions](https://www.tutorialspoint.com/scala/scala_functions.htm)
 
-...
+Functions in Scala are declared using the keyword `def` and follow a similar syntax to other languages, see one example below.
+
+```scala
+def addInt(a:Int, b:Int):Int = {
+
+  var sum:Int = a + b
+
+  return sum
+
+}
+
+println(addInt(1, 2))
+```
 
 ### [Classes](https://www.tutorialspoint.com/scala/scala_classes_objects.htm)
 
-...
+Classes in Scala are declared using the keyword `class` and follow a similar syntax to other languages, see one example below.
+
+```scala
+class Point(xa:Int, ya:Int) {
+
+   var x:Int = xa
+   var y:Int = ya
+
+   def move(xb:Int, yb:Int) {
+
+      x = xb
+      y = yb
+
+   }
+
+}
+
+var point = new Point(10, 20)
+
+println(point.x)
+println(point.y)
+
+point.move(30, 40)
+
+println(point.x)
+println(point.y)
+```
 
 # Libraries
 
