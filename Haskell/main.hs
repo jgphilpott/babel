@@ -1,5 +1,5 @@
 add :: Integer -> Integer -> Integer   --function declaration
-add x y =  x + y                       --function definition
+add x y = x + y                        --function definition
 
 main = do
 

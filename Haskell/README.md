@@ -18,19 +18,39 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 
 ### [Variables](https://www.tutorialspoint.com/haskell/haskell_overview.htm)
 
-...
+Variables in Haskell can be declared using the keyword `let` followed by the name of the variable, an `=` sign and the value.
+
+```hs
+let num = 42
+```
 
 ### [If/Else](https://www.tutorialspoint.com/haskell/haskell_decision_making.htm)
 
-...
+If/Else statements in Haskell are very similar to other languages except with no brackets around the condition or curly braces around the body. You must also include the keyword `then` after your condition.
+
+```hs
+if num `rem` 2 == 0 then
+    putStrLn "Number is Even"
+else
+    putStrLn "Number is Odd"
+```
 
 ### [Loops](?)
 
-...
+There are no loops in Haskell.
 
 ### [Functions](https://www.tutorialspoint.com/haskell/haskell_functions.htm)
 
-...
+Haskell has a very unique syntax for using functions, see the example below.
+
+```hs
+add :: Integer -> Integer -> Integer   --function declaration
+add x y = x + y                        --function definition
+
+main = do
+
+    print(add 2 5)                     --calling a function   
+```
 
 # Libraries
 
