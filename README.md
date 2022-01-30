@@ -33,7 +33,7 @@ Here is an alphabetical list of the languages that this repository contains:
  - [Clojure](https://github.com/jgphilpott/babel/blob/main/Clojure/README.md)
  - **[CoffeeScript](https://github.com/jgphilpott/babel/blob/main/CoffeeScript/README.md)**
  - **[Dart](https://github.com/jgphilpott/babel/blob/main/Dart/README.md)**
- - [Elixir](https://github.com/jgphilpott/babel/blob/main/Elixir/README.md)
+ - **[Elixir](https://github.com/jgphilpott/babel/blob/main/Elixir/README.md)**
  - [Elm](https://github.com/jgphilpott/babel/blob/main/Elm/README.md)
  - **[Fortran](https://github.com/jgphilpott/babel/blob/main/Fortran/README.md)**
  - **[Go](https://github.com/jgphilpott/babel/blob/main/Go/README.md)**
@@ -58,6 +58,6 @@ Here is an alphabetical list of the languages that this repository contains:
  - **[Scala](https://github.com/jgphilpott/babel/blob/main/Scala/README.md)**
  - [Scratch](https://github.com/jgphilpott/babel/blob/main/Scratch/README.md)
  - **[Shell](https://github.com/jgphilpott/babel/blob/main/Shell/README.md)**
- - [Swift](https://github.com/jgphilpott/babel/blob/main/Swift/README.md)
+ - **[Swift](https://github.com/jgphilpott/babel/blob/main/Swift/README.md)**
  - **[TypeScript](https://github.com/jgphilpott/babel/blob/main/TypeScript/README.md)**
  - [VB](https://github.com/jgphilpott/babel/blob/main/VB/README.md)
